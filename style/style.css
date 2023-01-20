@@ -23,8 +23,6 @@ footer {
     display: none;
 }
 
-
-
 @media screen and (max-width: 640px) {
     main {
         display: block;
@@ -37,7 +35,6 @@ footer {
     }
     
 }
-
 @media print  {
     footer {
         display:flex;

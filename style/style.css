@@ -7,39 +7,46 @@ header {
     display: none;
     background-color: blue;
     align-items: center;
-    height: 150px;
     justify-content: center;
+    text-align: center;
+    padding: 50px;
 
 }
+
 main {
-    display: flex;
+    text-align: center;
 }
 section {
     background-color: darkgrey;
     border: 1px dotted black;
+    display:inline-block;
+    max-width: 32.8%;
+    margin-top: 100px;
     margin: 0;
+    
 }
 footer {
     display: none;
 }
 
+
 @media screen and (max-width: 640px) {
     main {
+        display: block;
+    }
+    section {
         display: block;
     }
     
 }
 @media screen and (min-width: 800px){
     header {
-        display: flex;
+        display: block;
     }
     
 }
 @media print  {
     footer {
-        display:flex;
-            align-items: center;
-            justify-content: center;
             background-color: brown;
             border: 1px solid black;
             height: 100px;

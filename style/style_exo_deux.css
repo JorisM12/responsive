@@ -136,8 +136,7 @@ header {
     .bloc h3 {
         position: relative;
         top: 10%;
-        /* float: left; */
-        left: 65%;
+        left: 55%;
     
     }
     .bloc {
@@ -152,10 +151,7 @@ header {
     }
     .bloc p {
         position: relative;
-        left: 45%;
-    }
-    #semaine {
-        display: inline-block;
+        left: 0%;
     }
     .bloc .pollen {
         left: 10%;
@@ -164,7 +160,7 @@ header {
     .bloc .max {
         position: absolute;
         left: 120%;
-        top:-5%;
+        top:0%;
         bottom: 200%;
     }
 

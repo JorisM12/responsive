@@ -1,18 +1,16 @@
+/* CSS de la grille */
+
 .container {
     width: 100%;
 }
-
 .row {
     max-width: 100%;
 }
-
 .col-xs-1 {
     width: calc(100%/12);
-    background-color: rgb(53, 49, 110);
 }
 .col-xs-2 {
     width: calc(200%/12);
-    background-color: beige;
 }
 .col-xs-3 {
     width: calc(300%/12);
@@ -43,9 +41,72 @@
 }
 .col-xs-11 {
     width: calc(1100%/12);
-    background-color: chartreuse;
 }
 .col-xs-12 {
     width: calc(1200%/12);
-    background-color: bisque;
 }
+
+
+
+/* CSS mobile  */
+#logo_autre {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin: 15px;   
+    max-width: 20px;
+}
+
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    top:200px;
+    text-align: center;
+}
+#bank {
+    height: 100px;
+}
+nav {
+    display: none;
+}
+
+#partieA {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#partieA p {
+    text-align: justify;
+}
+
+article {
+    margin: 10%;
+    border-radius: 8px;
+    background-color: grey;
+    padding: 10px;
+}
+
+article img {
+    margin: 5px;
+    float: left;
+}
+
+/* CSS ecran moyen  */
+
+@media screen and (640px <= width <= 1100px)  {
+
+    .container {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+     .col-xs-10 {
+        width: calc(600%/12);
+    }
+
+
+
+
+}
+

@@ -1,8 +1,6 @@
 body {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 10% 0% 10%;
 }
-
 header {
     display: none;
     background-color: blue;
@@ -10,8 +8,6 @@ header {
     text-align: center;
     padding: 50px;
 }
-
-
 section {
     background-color: darkgrey;
     border: 1px dotted black;
@@ -22,8 +18,6 @@ section {
 footer {
     display: none;
 }
-
-
 @media screen and (min-width: 640px) {
     section {
         max-width: 31%;
@@ -35,8 +29,7 @@ footer {
 @media screen and (min-width: 800px){
     header {
         display: block;
-    }
-    
+    }   
 }
 @media print  {
     footer {

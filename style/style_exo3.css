@@ -1,5 +1,4 @@
 /* CSS général */
-
 #logo_autre {
     position: absolute;
     text-align: left;
@@ -7,7 +6,6 @@
     margin: 15px;   
     max-width: 20px;
 }
-
 header {
     margin-bottom: 5%;
     top:200px;
@@ -31,6 +29,9 @@ nav li {
     padding-right: 25px;
 }
 
+#burger {
+    visibility: hidden;
+}
 
 #partieA p {
     text-align: justify;
@@ -55,6 +56,9 @@ footer {
     padding: 15px;
     text-align: center;
     vertical-align: middle;
+}
+nav ul {
+    visibility: visible;
 }
 
 /* CSS de la grille */
@@ -103,24 +107,17 @@ footer {
     width: calc(1200%/12);
 }
 nav ul {
-    visibility: visible;
-    position:absolute;
-    top: 10%;
-    left: 75%;
-
+    display: none;
 }
-
 #burger {
     position: absolute;
-    top: 0;
+    top: 0%;
     left: 80%;
 }
-ul:active {
+#burger {
     visibility: visible;
-    color: blue;
 }
 }
-
 /* Ecran medium  */
 @media (700px <= width <= 900px ){
     .container {
@@ -296,9 +293,7 @@ ul:active {
     }
     #logo_autre {
         display: none;
-    }
- 
-   
+    }   
 }
 
 

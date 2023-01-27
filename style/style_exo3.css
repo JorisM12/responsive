@@ -21,12 +21,10 @@ nav {
 nav li {
     display: inline-block;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 10% 0% 10%;
     border: 1px solid black;
     border-radius: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0px 25px 0px 25px;
 }
 
 #burger {
@@ -40,14 +38,12 @@ nav li {
 #partieB p {
     text-align: justify;
 }
-
 article {
     margin-bottom:  10%;
     border-radius: 8px;
     background-color: grey;
     padding: 10px;
 }
-
 article img {
     margin: 5px;
     float: left;
@@ -60,8 +56,6 @@ footer {
 nav ul {
     visibility: visible;
 }
-
-/* CSS de la grille */
 
 @media screen and (max-width: 640px)  {
 .container {
@@ -180,8 +174,7 @@ nav ul {
         width: 100%;
     }
     .container_fluid {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 0% 10% 0% 10%;
     }
     .row {
         max-width: 100%;
@@ -233,18 +226,15 @@ nav ul {
     #article3 {
        position: relative;
        left: 20%;
-    }
-   
+    }  
 }
-
 /* Très grand ecran  */
 @media screen and (min-width: 1200px){
     .container {
         width: 100%;
     }
     .container_fluid {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 0% 5% 0% 5%;   
     }
     .row {
         max-width: 100%;
@@ -287,8 +277,7 @@ nav ul {
     }
     article {
         position: relative;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin: 0% 2% 0% 2%;
         display: inline-block;
     }
     #logo_autre {

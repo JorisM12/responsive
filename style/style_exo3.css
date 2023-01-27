@@ -1,3 +1,63 @@
+/* CSS général */
+
+#logo_autre {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    margin: 15px;   
+    max-width: 20px;
+}
+
+header {
+    margin-bottom: 5%;
+    top:200px;
+    text-align: center;
+}
+#bank {
+    height: 100px;
+}
+nav {
+    text-align: center;
+    margin-left: -50px;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+#partieA p {
+    text-align: justify;
+
+}
+#partieB p {
+    text-align: justify;
+}
+
+article {
+    margin-bottom:  10%;
+    border-radius: 8px;
+    background-color: grey;
+    padding: 10px;
+}
+
+article img {
+    margin: 5px;
+    float: left;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 /* CSS de la grille */
 
 .container {
@@ -23,15 +83,12 @@
 }
 .col-xs-6 {
     width: calc(600%/12);
-    background-color: rgb(53, 49, 110);
 }
 .col-xs-7 {
     width: calc(700%/12);
-    background-color: beige;
 }
 .col-xs-8 {
     width: calc(800%/12);
-    background-color: blue;
 }
 .col-xs-9 {
     width: calc(900%/12);
@@ -48,65 +105,111 @@
 
 
 
-/* CSS mobile  */
-#logo_autre {
-    position: absolute;
-    text-align: left;
-    left: 0;
-    margin: 15px;   
-    max-width: 20px;
+
+/* CSS de la grille */
+
+@media screen and (max-width: 640px)  {
+.container {
+    width: 100%;
+}
+.row {
+    max-width: 100%;
+}
+.col-xs-1 {
+    width: calc(100%/12);
+}
+.col-xs-2 {
+    width: calc(200%/12);
+}
+.col-xs-3 {
+    width: calc(300%/12);
+}
+.col-xs-4 {
+    width: calc(400%/12);
+}
+.col-xs-5 {
+    width: calc(500%/12);
+}
+.col-xs-6 {
+    width: calc(600%/12);
+}
+.col-xs-7 {
+    width: calc(700%/12);
+}
+.col-xs-8 {
+    width: calc(800%/12);
+}
+.col-xs-9 {
+    width: calc(900%/12);
+}
+.col-xs-10 {
+    width: calc(1000%/12);
+}
+.col-xs-11 {
+    width: calc(1100%/12);
+}
+.col-xs-12 {
+    width: calc(1200%/12);
+}
 }
 
-header {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    top:200px;
-    text-align: center;
-}
-#bank {
-    height: 100px;
-}
-nav {
-    display: none;
-}
-
-#partieA {
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-#partieA p {
-    text-align: justify;
-}
-
-article {
-    margin: 10%;
-    border-radius: 8px;
-    background-color: grey;
-    padding: 10px;
-}
-
-article img {
-    margin: 5px;
-    float: left;
-}
-
-/* CSS ecran moyen  */
-
-@media screen and (640px <= width <= 1100px)  {
-
+/* Ecran medium  */
+@media (700px <= width <= 900px ){
     .container {
         width: 100%;
+    }
+    .container_fluid {
         margin-left: 10%;
         margin-right: 10%;
     }
-     .col-xs-10 {
+    .row {
+        max-width: 100%;
+    }
+    .col-md-1 {
+        width: calc(100%/12);
+    }
+    .col-md-2 {
+        width: calc(200%/12);
+    }
+    .col-md-3 {
+        width: calc(300%/12);
+    }
+    .col-md-4 {
+        width: calc(400%/12);
+    }
+    .col-md-5 {
+        width: calc(500%/12);
+    }
+    .col-md-6 {
         width: calc(600%/12);
     }
-
-
-
+    .col-md-7 {
+        width: calc(700%/12);
+    }
+    .col-md-8 {
+        width: calc(800%/12);
+    }
+    .col-md-9 {
+        width: calc(900%/12);
+    }
+    .col-md-10 {
+        width: calc(1000%/12);
+    }
+    .col-md-11 {
+        width: calc(1100%/12);
+    }
+    .col-md-12 {
+        width: calc(1200%/12);
+    }
+    article {
+        position: relative;
+        margin-left: 10%;
+    }
+    nav {
+        margin-left: -5%;
+    }
 
 }
+
+
 
